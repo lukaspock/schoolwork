@@ -17,6 +17,6 @@ function main(){
     console.log(_('niceday'));
 }
 
-main();
+main(); 
 
 
