@@ -1,0 +1,256 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d4d4d4;
+  color: white;
+  text-align:center;
+}
+
+h1, h2, p, label {
+  color: #000000;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+label{
+  text-align:center;
+}
+
+button {
+  background-color: #797d81;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 00px;
+  margin-right: 2px;
+}
+
+button:hover {
+  background-color: #4e4e4e;
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+img:hover{
+  opacity: 0.5;
+}
+
+.clickable-img:active {
+  transform: scale(0.95);
+}
+
+input {
+  padding: 10px;
+  padding-right: 25px;
+  margin: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.split {
+  display: flex;
+  
+  justify-content:space-around;
+  width: 80%;
+  max-width: 1000px;
+  background: rgb(236, 236, 236);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border-color: #000000;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 1000px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+#Homescreen, #Cart, #Overview, #Product {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+
+.invisible {
+  display: none;
+}
+
+#outputCart, #Products {
+  flex: 1;
+  padding: 20px;
+  border-color: #000000;
+  border-radius: 10px;
+}
+
+#CartItems {
+  background: #eee;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#TotalPrice, #priceOverview {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.center {
+  text-align:center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding-left: 00px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+  width: fit-content;
+}
+
+#ProductPicture:hover {
+    opacity: 1;
+}
+
+#outputCarts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#outputOverview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  color: #333;
+  appearance: none; /* removes default arrow styling */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20viewBox%3D%220%200%204%205%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M2%200L0%202h4L2%200zm0%205L0%203h4l-2%202z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  cursor: pointer;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+option {
+  padding: 8px;
+}
+
+#ADD {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+#ADD .content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#ADD .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ADD .btn-back {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#ADD .existing h2 {
+  margin-bottom: 0.5rem;
+}
+
+#ADD .output-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#ADD .form-sections {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#ADD .form-box {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+#ADD .btn-action {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#ADD .btn-action:hover {
+  background-color: #9b9b9b;
+}

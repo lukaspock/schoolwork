@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <script type="module" src="../js/main.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Homescreen -->
+
+    <div class="container" id="Homescreen">
+        <div class="section">
+            <div >
+                <h1>Shopping List</h1>
+                <p>Add Cart:</p>
+                <label for="name">Name:</label>
+                <input id="name" type="text">
+                <button id="create">Create Cart</button>
+                <h2>Your Carts:</h2>
+                <div id="outputCarts"></div>
+                <br>
+                <button id="AddProduct">Manage Categories / Products</button>
+            </div>
+            
+        </div>
+        
+    </div>
+ 
+
+    <!-- Cart -->
+
+    <div id="Cart" class="invisible">
+        <div class="top">
+            <button id="HomescreenCart">Go Back</button>
+        </div>
+        
+        <h1 id="cartName">Cart Name</h1>
+    <div id="Filter">
+        <div id="filterByCattegory">
+
+        </div>
+        
+
+    </div>
+        
+        <div class="container">
+            
+            <div class="split">
+                <h2>Available<br>Products:</h2>
+                    
+                <h2>Your<br>Cart:</h2>
+                </div>
+        </div>
+        
+    <div class="container">
+        <div class="split">
+                <div id="Products">
+                     
+                </div>
+                <div id="outputCart">
+                    <div id="CartItems">
+                        
+                    </div>
+                    <h2 id="TotalPrice"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overview -->
+
+    <div id="Overview" class="invisible">
+        <button id="HomescreenOverview">Homescreen</button>
+        <h1>Cart Overview</h1>
+        <h2 id="nameOverview"></h2>
+        <div id="outputOverview"></div>
+        <h2 id="priceOverview"></h2>
+    </div>
+    
+    <!-- Product -->
+
+    <div id="Product" class="invisible">
+        <button id="HomescreenProduct">Homescreen</button>
+        <button id="EditProduct">Edit</button>
+        <h1>Product View</h1>
+
+        <div id="outputProduct">
+
+        </div>
+        <p id="description"></p>
+        <p id="price">Price: ?$</p>
+        <label for="amount">Amount:</label>
+        <input id="amount" type="number">
+        <button id="add">Add To Cart</button>
+    </div>
+
+    <!-- ADD -->
+<div id="ADD" class="invisible container">
+    <div class="content">
+
+        <!-- Header -->
+        <div class="header">
+            <button id="BackADD" class="btn-back">⬅ BACK</button>
+            <h1>Manage Products / Categories</h1>
+        </div>
+
+        
+        <div class="existing">
+            <h2>PRODUCTS</h2>
+            <div id="existingProductsOutput" class="output-box"></div>
+
+            <h2>CATEGORIES</h2>
+            <div id="existingCategorysOutput" class="output-box"></div>
+        </div>
+
+        
+        <div id="PC" class="form-sections">
+            
+            <div class="form-box">
+                <h2>ADD A PRODUCT</h2>
+                <label for="nameP">Name:</label>
+                <input type="text" id="nameP">
+
+                <label for="priceP">Price:</label>
+                <input type="number" id="priceP">
+
+                <label for="categoryP">Category:</label>
+                <select id="categoryP" name="categorySelect"></select>
+
+                <label for="descriptionP">Description:</label>
+                <input type="text" id="descriptionP">
+
+                <h2>PICTURE</h2>
+                <label for="urlP">URL:</label>
+                <input type="text" id="urlP">
+
+                <label for="fileNameP">File Name:</label>
+                <input type="text" id="fileNameP">
+
+                <button id="createProduct" class="btn-action">CREATE PRODUCT</button>
+            </div>
+
+            
+            <div class="form-box">
+                <h2>ADD A CATEGORY</h2>
+                <label for="nameC">Name:</label>
+                <input type="text" id="nameC">
+
+                <label for="descriptionC">Description:</label>
+                <input type="text" id="descriptionC">
+
+                <button id="createCategory" class="btn-action">CREATE CATEGORY</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

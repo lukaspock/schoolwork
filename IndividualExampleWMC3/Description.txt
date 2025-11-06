@@ -1,0 +1,5 @@
+Description of My Individual Example Project
+
+For this Individual Example, I first had to came up with an idea an make a description of how I would try to solve it. 
+After planning and presenting it to my teacher I developed it over a certain timespan using HTML, CSS and JavaScript.
+At the deadline I then had to present my result of the implementation. I am proud to say that I received the maximum score for this project.
