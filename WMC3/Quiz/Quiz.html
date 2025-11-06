@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <script src="Question.js" defer></script>
+    <script src="QuizModel.js" defer></script>
+    <script src="QuizView.js" defer></script>
+    <script src="QuizDao.js" defer></script>
+    <script src="start.js" defer></script>
+</head>
+<body>
+    <h1>Question:</h1>
+
+    <label for="topic">Select topic: </label>
+    <select name="topic" id="topic"></select>
+
+    <p id="question">Question: </p>
+
+    <ol id="list"></ol>
+
+    <label for="input">Enter the number of the right answer: </label>
+    <input type="number" id="input">
+    <p id="result">Your guess was </p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "firstname": "Alice",
+        "lastname": "Jason",
+        "email": "alice@example.com"
+      },
+      {
+        "id": 2,
+        "firstname": "Kurt",
+        "lastname": "Cobain",
+        "email": "Kurti@gmail.com"
+      },
+      {
+        "id": 3,
+        "firstname": "Layne",
+        "lastname": "Staley",
+        "email": "Layne@gmail.com"
+      },
+      {
+        "id": 4,
+        "firstname": "Thom",
+        "lastname": "Yorke",
+        "email": "Thom@gmail.com"
+      },
+      {
+        "id": 5,
+        "firstname": "Robert",
+        "lastname": "Smith",
+        "email": "Robert@gmail.com"
+      }
+    ]
+   }

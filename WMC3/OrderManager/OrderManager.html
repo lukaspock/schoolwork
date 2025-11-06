@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OrderManager.css">
+    <script src="OrderManager.js" defer></script>
+    <title>OrderManager</title>
+</head>
+<body>
+
+    <h2 id="text">OrderManager</h2>
+
+    <header id="header">
+        
+        <label for="select1" id="lable">Available Products: </label>
+        <label for="select2" id="lable">Your Selection: </label>
+    </header>
+
+    <div id ="div">
+        <select name="Select1" id="Select1" size = "3">
+            <option value="1" data-price ="100">vortschi</option>
+            <option value="2" data-price ="100">nik</option>
+            <option value="3" data-price ="100">carti</option>
+        </select>
+    
+        <div id="buttons" >
+            <button id="add">>></button>
+            <button id="remove"><<</button>
+        </div>
+     
+        <select name="select2" id="Select2" size = "3">
+
+        </select>
+    </div>
+    <br>
+
+    <button id="Sort">Sort</button>
+    <button id="calculate">Calculate total</button>
+
+    <div id ="div">
+        <p>Selected country: </p>
+        <select name="" id="country">
+            <option data-ineu = "false" value="">Russia</option>
+            <option data-ineu = "true" >Austria</option>
+            <option data-ineu = "true">France</option>
+            <option data-ineu = "false">Japan</option>
+        </select>
+
+    </div>
+
+    <div id ="div">
+    
+        <p>Select shipment mode: </p>
+        <select name="" id="shipmentMode">
+            <option value="none">Select a shipment mode</option>
+            <option value="std">Standard</option>
+            <option value="cac">Click and Collect</option>
+            <option value="gw">Gift wrap</option>
+        </select>
+    </div>
+
+    <p>Total cost (excl. shipment): </p>
+    <p id="erg"></p>
+    <p id="output">Total cost (incl. shipment): </p>
+    <p id="erg2"></p>
+    
+
+    
+</body>
+</html>

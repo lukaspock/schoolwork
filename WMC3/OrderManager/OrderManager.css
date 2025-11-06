@@ -1,0 +1,70 @@
+
+#text{
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    display: flex;
+}
+
+#lable{
+    margin-right: 200px;
+}
+
+#div{
+    display: flex;
+    flex: 3;
+}
+
+#Select1 {
+    width: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  #Select2 {
+    width: 250px;
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  #add {
+    background-color: lightblue ; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Adjust font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  #add:hover {
+    background-color: blue; /* Darker green on hover */
+  }
+
+  #remove {
+    background-color: lightblue; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Adjust font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  #remove:hover {
+    background-color: blue; /* Darker green on hover */
+  }
+
+  /* schöne Buttons aus dem Internet :) */

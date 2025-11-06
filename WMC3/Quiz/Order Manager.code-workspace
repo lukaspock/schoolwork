@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../TestÜben/Order Manager"
+		},
+		{
+			"path": "../../TestÜben/Book"
+		},
+		{
+			"path": "../ObjectList"
+		},
+		{
+			"path": "../../TestÜben/FunctionList"
+		},
+		{
+			"path": "../calculator"
+		},
+		{
+			"path": "../GameScore"
+		}
+	],
+	"settings": {}
+}

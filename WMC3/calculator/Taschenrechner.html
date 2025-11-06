@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with Buttons</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <article>
+        <h1>Calculator with Buttons</h1>
+        <div>
+            <p>Operand 1:</p>
+            <input type="number" id="operand1">
+        </div>
+        <div>
+            <p>Operand 2:</p>
+            <input type="number" id="operand2">
+        </div>
+        
+        <div>
+           <p>Operators:</p>
+           
+           <select name="selectelement" id="selectelement">
+                <option value="+">+ </option>
+                <option value="-">- </option>
+                <option value="*">* </option>
+                <option value="/">/ </option>
+           </select>
+            
+                
+            </option>
+        </div>
+        
+            <button onclick="calculate()">Calculate</button>
+        <div>
+            <p>Result:</p>
+            <p id="result"></p>
+        </div>
+    </article>
+    <article>
+        <ul id="list">
+            
+        </ul>
+    </article>
+    
+</body>
+</html>
